@@ -25,10 +25,6 @@ body {
   .attribution { 
     font-size: 11px;
     text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, 2700%);
 }
   .attribution a { 
     color: hsl(228, 45%, 44%);
@@ -138,7 +134,7 @@ div#icon {
     background-size: cover;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
     div#imagem {
         background-image: url(images/image-product-mobile.jpg);
         background-size: cover;
