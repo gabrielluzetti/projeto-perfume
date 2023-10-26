@@ -144,7 +144,7 @@ div#icon {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        width: 480px;
+        width: 384px;
         height: 386px;
         position: absolute;
         left: 50%;
@@ -155,12 +155,12 @@ div#icon {
 
     div#dados {
         background-color: hsl(0, 0%, 100%);
-        width: 450px;
-        height: 346px;
+        width: 354px;
+        height: 356px;
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, 0%);
+        transform: translate(-50%, -5%);
         border-radius: 0px 0px 15px 15px;
         padding: 15px;
         text-align: justify;
@@ -174,7 +174,7 @@ div#icon {
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-130%, 410%);
+        transform: translate(-40%, 490%);
     }
     p {
         font-family: var(--fonte-2);
@@ -199,14 +199,14 @@ div#icon {
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, 230%);
+        transform: translate(-50%, 270%);
     }
     div#icon {
         background-image: url(images/icon-cart.svg);
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-450%, 800%);
+        transform: translate(-450%, 920%);
         background-repeat: no-repeat;
         width: 15px;
         height: 16px;
