@@ -65,7 +65,7 @@ div#compra {
     width: 180px;
     text-align: center;
     
-    font-family: var(--fonte-2);
+    font-family: var(--fonte-1);
     color: white;
     font-weight: 500;
     font-size: 14px;
@@ -108,19 +108,21 @@ h1 {
 p#price1 {
     color: hsl(158, 36%, 37%);
     font-size: 2em;
-    font-family: var(--fonte-2);
+    font-family: var(--fonte-1);
     font-weight: bold;
 }
 
 div#price2 {
     font-size: 13px;
-    font-family: var(--fonte-2);
+    color: rgb(68, 68, 68);
+    font-family: var(--fonte-1);
     text-decoration: line-through;
+    font-weight: 500;
 
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(20%, 450%);
+    transform: translate(20%, 300%);
 }
 
 div#icon {
@@ -166,13 +168,13 @@ div#icon {
 
     div#price2 {
         font-size: 13px;
-        font-family: var(--fonte-2);
+        font-family: var(--fonte-1);
         text-decoration: line-through;
     
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-130%, 610%);
+        transform: translate(-130%, 410%);
     }
     p {
         font-family: var(--fonte-2);
@@ -181,5 +183,34 @@ div#icon {
         padding-left: 15px;
         padding-right: 70px;
         font-weight: 400;
+    }
+    div#compra {
+        background-color: hsl(158, 36%, 37%);
+        width: 210px;
+        text-align: center;
+        
+        font-family: var(--fonte-2);
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 15px;
+        border-radius: 10px;
+    
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, 230%);
+    }
+    div#icon {
+        background-image: url(images/icon-cart.svg);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-450%, 800%);
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 16px;
+        background-position: center center;
+        background-size: cover;
     }
 }
